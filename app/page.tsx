@@ -37,7 +37,7 @@ export default function Home() {
               Site Original
             </Link>
           </div>
-          <img src="/static/banner.jpg" alt="banner" className="mx-auto max-w-full h-auto max-h-[400px] md:max-h-[500px] lg:max-h-[600px] dark:filter dark:grayscale rounded-lg" />
+          <img src="/banner.jpg" alt="banner" className="mx-auto max-w-full h-auto max-h-[400px] md:max-h-[500px] lg:max-h-[600px] dark:filter dark:grayscale rounded-lg" />
         </div>
       </section>
       <section className="container max-w-4xl py-3 lg:py-6 flex flex-col space-y-6 mt-20">
