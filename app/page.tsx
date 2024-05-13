@@ -9,7 +9,7 @@ export default function Home() {
   const latestPosts = sortPosts(posts).slice(0, 5);
   return (
     <>
-      <section className="space-y-6 pb-8 pt-6 md:pb-12 md:mt-10 lg:py-32">
+      <section className="space-y-6 pb-4 pt-4 md:pb-6 md:mt-8 lg:py-12">
         <div className="container flex flex-col gap-4 text-center">
           <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-balance">
             Father Alexander
@@ -17,6 +17,7 @@ export default function Home() {
           <p className="max-w-[42rem] mx-auto text-muted-foreground sm:text-xl text-balance">
           Sobre a fé e a vida cristã, as Sagradas Escrituras, a oração e os sacramentos, a vida do santos, teologia e escritos selecionados dos santos padres.
           </p>
+          
           <div className="flex flex-col gap-4 justify-center sm:flex-row">
             <Link
               href="/blog"
@@ -36,9 +37,10 @@ export default function Home() {
               Site Original
             </Link>
           </div>
+          <img src="/static/banner.jpg" alt="banner" className="mx-auto max-w-full h-auto max-h-[400px] md:max-h-[500px] lg:max-h-[600px] dark:filter dark:grayscale rounded-lg" />
         </div>
       </section>
-      <section className="container max-w-4xl py-6 lg:py-10 flex flex-col space-y-6 mt-60">
+      <section className="container max-w-4xl py-3 lg:py-6 flex flex-col space-y-6 mt-20">
         <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-center">
           Últimos posts
         </h2>

@@ -23,8 +23,6 @@ export default async function AboutPage() {
         <p className="text-muted-foreground text-lg py-4 italic">Nenhum dos textos ou artigos foi escrito ou traduzido por mim.</p>
         <p className="text-muted-foreground text-lg py-4">
            <strong className="text-foreground">Todos</strong> os textos aqui presentes foram retirados do <a className="underline text-foreground hover:text-muted-foreground transition-colors" href="https://fatheralexander.org/" target="_blank">deste site</a> e são de autoria do Bispo Alexander. Eu apenas adaptei a interface de usuário para proporcionar uma melhor usabilidade e leitura.
-
-          Se tiver qualquer dúvida ou questão sobre o conteúdo textual, por favor, visite o site original para obter mais informações.
         </p>
         <p className="text-muted-foreground text-lg py-4">
           Se tiver qualquer dúvida ou questão sobre o conteúdo textual, por favor, visite o site original para obter mais informações.
